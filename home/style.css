@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.profile ul{
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  margin: 10px 0;
+}
+
+li img{
+  width: 90px;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+li{
+  list-style-type: none;
+}
+
+.post ul, .edit ul{
+  gap: 5%;
+  display: flex;
+  margin: 10px 0;
+}
+
+button{
+  width: 100px;
+  padding: 5px;
+}
+
+.info{
+  margin: 10px 20px;
+}
+
+::-webkit-scrollbar{
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+  color: #030101;
+  border-radius: 10px;
+}
+.sidebar{
+  top: 0;
+  left: 0;
+  width: 45%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 0 2px 0 5px;
+}
+.scrollbox{
+  overflow: auto;
+  /* background-color: back; */
+}
+
+.userinfo{
+  display: flex;
+  gap: 5px;
+  
+}
+
+
